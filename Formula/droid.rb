@@ -11,7 +11,7 @@ class Droid < Formula
   elsif OS.linux?
     url "https://github.com/wasabeef/droid/releases/download/#{version}/droid-linux.tar.gz"
     sha256 "b46f61afeb0c7114404343bfe05ccb2593af6f1e26a6537851615197d8386cf4"
-  enda
+  end
 
   def install
     bin.install "droid"
