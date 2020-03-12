@@ -1,5 +1,5 @@
 class Droid < Formula
-  version "v0.1.4"
+  version "v0.1.5"
   desc "A command-line tool for checking Android OS version history written by Rust."
   homepage "https://github.com/wasabeef/droid"
 
@@ -7,10 +7,10 @@ class Droid < Formula
 
   if OS.mac?
     url "https://github.com/wasabeef/droid/releases/download/#{version}/droid-macos.tar.gz"
-    sha256 "1c5ef22cc5887faec6d4cb404ee8a7250a1acb33a540393a8b6294ada2dcaf2d"
+    sha256 "0562b4e3d6f46c8758ca0899894bab9e7713d8d39ca1145674c0e2be2b3904bb"
   elsif OS.linux?
     url "https://github.com/wasabeef/droid/releases/download/#{version}/droid-linux.tar.gz"
-    sha256 "d68b326cf56c384550812fdcdb687a55603f58139996bb1248819c15ff2681b3"
+    sha256 "545d3fa9627a991727d0d438721012225a58fe4b369ad060c170722f542633b8"
   end
 
   def install
