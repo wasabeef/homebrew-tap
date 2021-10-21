@@ -3,8 +3,6 @@ class Droid < Formula
   desc "A command-line tool for checking Android OS version history written by Rust."
   homepage "https://github.com/wasabeef/droid"
 
-  bottle :unneeded
-
   if OS.mac?
     url "https://github.com/wasabeef/droid/releases/download/#{version}/droid-macos.tar.gz"
     sha256 "0562b4e3d6f46c8758ca0899894bab9e7713d8d39ca1145674c0e2be2b3904bb"
